@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Colors */
+:root{
+    --main_orange: #F7931E;
+    --main_purple: #9112FF;
+    --text_white: #fff;
+    --text_darkgrey:#3B3B3B;
+    --text_lightgrey:#A2A2A2;
+    --background_grey: #F4F4F4;
+    --line_grey: #D5D9D9;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto','Arial','sans-serif';
+    margin: 0 auto;
+    background-color: var(--background_grey);
+}
+a{
+    text-decoration: none;
+}
+main{
+    max-width: 90ch;
+    margin:0 auto;
+    padding: 2rem;
+    background-color: var(--text_white);
+    height: 100vh;
+    text-align: center;
+}
+main > img{
+    width:10%;
+    height: auto;
+}
+main > h1{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+main form{
+    width: 60%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 1rem;
+}
+main form input.fielditems{
+    margin: .5rem;
+}

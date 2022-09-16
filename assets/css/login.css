@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Colors */
+:root{
+    --main_orange: #F7931E;
+    --main_purple: #9112FF;
+    --text_white: #fff;
+    --text_darkgrey:#3B3B3B;
+    --text_lightgrey:#A2A2A2;
+    --background_grey: #F4F4F4;
+    --line_grey: #D5D9D9;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto','Arial','sans-serif';
+    margin: 0 auto;
+    background-color: var(--background_grey);
+}
+a{
+    text-decoration: none;
+}
+main{
+    max-width: 90ch;
+    margin:0 auto;
+    padding: 2rem;
+    background-color: var(--text_white);
+    height: 100vh;
+    text-align: center;
+}
+main > img{
+    width:10%;
+    height: auto;
+}
+main > h1{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+main > form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 35ch;
+    margin:1rem auto;
+    padding:1rem;
+    border:1px solid var(--main_orange);
+}
+main > form label, input{
+    display:block;
+    margin:.25rem;
+    width:60%;
+}
+main > form label{
+    font-size: .9rem;
+    font-weight: 500;
+    margin-bottom:0;
+}
+main > form >input#submit{
+    padding:.5rem;
+    font-weight: 700;
+    border: none;
+    background-color: var(--main_orange);
+    color:var(--text_white);
+    border: 1px solid var(--text_white);
+}
+main > form >input#submit:hover{
+    cursor: pointer;
+    background-color: var(--text_white);
+    color:var(--main_orange);
+    border: 1px solid var(--main_orange);
+}
+main a{
+    color:var(--main_orange);
+    border: 1px solid var(--main_orange);
+    padding:.25rem 1rem;
+    font-size: .8rem;
+}
