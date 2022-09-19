@@ -47,8 +47,8 @@ echo
                 </li>
             </ul>
             <div id="company_right">
-                <p>©2022 Grammy\'s Bakery. All Rights Reserved.</p>
-                <h1>GRAMMY\'S BAKERY</h1>
+                <p>©2022 Coco Bakery. All Rights Reserved.</p>
+                <h1>COCO BAKERY</h1>
                 <ul>
                     <li><img src="assets/images/icons/Twitter_white_36_36.png" alt="twitterIcon" width="36" height="36" class="footer_social_media"></li>
                     <li><img src="assets/images/icons/YouTube_white_36_36.png" alt="YouTubeIcon" width="36" height="36" class="footer_social_media"></li>

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 /* Colors */
 :root{
-    --main_orange: #F7931E;
+    --main_orange: #16543C;
     --main_purple: #9112FF;
     --text_white: #fff;
     --text_darkgrey:#3B3B3B;
@@ -32,7 +32,7 @@ article#checkout_info > h1{
 article#checkout_info > div#checkout_info_text{
     border-left: 3px solid var(--main_orange);
     padding: .5rem;
-    background-color: #fcd4a6;
+    background-color: #7ab398;
     margin:.5rem 0;
 }
 article#checkout_info > div#checkout_info_text > p{
@@ -191,7 +191,7 @@ div.delivery_payment:hover{
 div > p{
     margin:0;
     font-size: .9rem;
-    color: var(--text_darkgrey);
+    color: var(--text_white);
 }
 p.title{
     color:var(--main_orange);

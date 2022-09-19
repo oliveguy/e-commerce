@@ -15,14 +15,14 @@ if(isset($_SESSION['login'])){
 }else{
     $user_name = "Customer";
 }
-
+// <a href="index.php"><h1>Grammy\'s Bakery</h1></a>
 
 echo '
 <header>
     <div id="top_header">
         <div id="logo_h1_wrapper">
-            <a href="index.php"><img src="assets/images/grammys.svg" alt="Grammy bakery logo" width="800" height="558" id="grammylogo"></a>
-            <a href="index.php"><h1>Grammy\'s Bakery</h1></a>
+            <a href="index.php"><img src="assets/images/mainlogo.png" alt="coco-bakery-logo" width="800" height="558" id="mainlogo"></a>
+            
         </div>
         <ul> <!-- User Navigation -->';            
             
