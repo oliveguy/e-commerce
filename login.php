@@ -9,7 +9,7 @@ include("page_modules/login_status.php");
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Grammy's Bakery || Login</title>
+        <title>Coco Bakery || Login</title>
         <link rel="stylesheet" href="assets/css/header.css">
         <link rel="stylesheet" href="assets/css/login.css">
     </head>
@@ -19,8 +19,8 @@ include("page_modules/login_status.php");
 </header>
 <?php include("page_modules/aside.php");?>
     <main>
-        <img src="assets/images/grammys.svg" alt="Grammy's logo" width="200" height="auto">
-        <h1>Grammy's Login</h1>
+        <img src="assets/images/mainlogo.png" alt="Coco Bakery logo" width="200" height="auto">
+        <h1>Coco Bakery Login</h1>
         <p>Welecome! Please type your ID and Password</p>
         <form action="page_modules/loginprocess.php" method="POST">
             <label for="login_id">Member ID</label>

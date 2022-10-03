@@ -41,7 +41,7 @@
                         <hr>
                         <p class="title">Delivery Time Slot</p>
                         <p class="title_description">Select the delivery time slot you want</p>
-                        <p><b>Today, April.22 Monday</b></p>
+                        <p><b>Today, <?php echo date("F, j Y"); ?></b></p>
                         <p>Depart from one of our locations</p>
                         <div id="delivery_time">
                             <input type="radio" name="delivery_time" value="AM_09:00" id="AM_09:00">

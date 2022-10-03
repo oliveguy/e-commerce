@@ -191,7 +191,7 @@ div.delivery_payment:hover{
 div > p{
     margin:0;
     font-size: .9rem;
-    color: var(--text_white);
+    color: var(--text_darkgrey);
 }
 p.title{
     color:var(--main_orange);
