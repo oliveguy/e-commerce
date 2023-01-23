@@ -1,5 +1,6 @@
 # Coco Bakery
-![mainlogo](https://user-images.githubusercontent.com/103153516/214003241-865112b8-2bbf-4b1e-84f3-253aa29f237f.png)
+![coco_logo](https://user-images.githubusercontent.com/103153516/214009244-2027c170-d3c6-4b4b-ae9f-f695e9f09b3a.jpg)
+<br>
 e-commerce website for selling breads
 
 ## Features
