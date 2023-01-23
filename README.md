@@ -22,10 +22,13 @@ e-commerce website for selling breads
 <img src="https://img.shields.io/badge/Css-green?style=for-the-badge&logo=Css&logoColor=CC6699"/>
 <img src="https://img.shields.io/badge/Javascript-yellow?style=for-the-badge&logo=Javascript&logoColor=000"/>
 <img src="https://img.shields.io/badge/PHP-white?style=for-the-badge&logo=PHP&logoColor=green"/>
-<img src="https://img.shields.io/badge/MySQL-blue?style=for-the-badge&logo=MySQL&logoColor=green"/>
+<img src="https://img.shields.io/badge/MySQL-blue?style=for-the-badge&logo=MySQL&logoColor=white"/>
 </div>
 
 ## Screen Shots
+![coco_front](https://user-images.githubusercontent.com/103153516/214006209-51695e40-cb4f-436d-ad39-51016d8adbce.jpg)
+![coco_menu](https://user-images.githubusercontent.com/103153516/214008856-ac6a3820-3367-4b0c-961b-cf8c0781317b.jpg)
+![coco_order](https://user-images.githubusercontent.com/103153516/214008566-86b1b34d-2596-429f-b2a7-f4fa01c0fb94.jpg)
 
 ## Contribution
 - Logo design
