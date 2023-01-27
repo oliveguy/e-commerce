@@ -35,6 +35,7 @@ e-commerce website for selling breads
 ![coco_order](https://user-images.githubusercontent.com/103153516/214008566-86b1b34d-2596-429f-b2a7-f4fa01c0fb94.jpg)
 
 ## Contribution
+- Personas
 - Logo design
 - Photos
 - Wireframing & Mock-up
