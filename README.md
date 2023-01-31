@@ -43,6 +43,7 @@ e-commerce website for selling breads
 
 ## Continued Development
 - Sub pages for brand, news
+- Change color scheme
 
 ## Author
 Sunghyun Park (Collin)
