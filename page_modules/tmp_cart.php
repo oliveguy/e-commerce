@@ -3,13 +3,15 @@ session_start();
 $id = $_GET['product_id'];
 include("DB_connection.php");
     // INPUT FROM PAGES
-    $product_id = $_GET['id'];
+    $product_id = $_GET['product_id'];
     $query = "SELECT id, product_name, product_brief,img_filename_full, price FROM products WHERE id=$id";
     $sql = mysqli_query($connection, $query);
     $row = mysqli_fetch_array($sql);
 
     $input_session_id        = session_id();
-    $input_user_id           = $_SESSION['user_id_string'];
+    if(isset($_SESSION['login'])){
+        $input_user_id           = $_SESSION['user_id_string'];
+    }
     $input_product_id        = $row['id'];
     $input_product_name      = $row['product_name'];
     $input_product_brief     = $row['product_brief'];

@@ -2,7 +2,9 @@
 session_start();
 include("DB_connection.php");
 $id = $_GET['id'];
-$login_id = $_SESSION['user_id_string'];
+if(isset($_SESSION['login'])){
+    $login_id = $_SESSION['user_id_string'];
+}
 $session_id = session_id();
 
 if(isset($_SESSION['login'])){
