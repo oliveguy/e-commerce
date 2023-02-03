@@ -1,6 +1,8 @@
 <?php
 session_start();
-$login_id = $_SESSION['user_id_string'];
+if(isset($_SESSION['login'])){
+    $login_id = $_SESSION['user_id_string'];
+}
 $session_id = session_id();
 $product_id = $_GET['product_id'];
 $operator = $_GET['operation'];
