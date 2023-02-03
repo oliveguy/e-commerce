@@ -1,9 +1,12 @@
 <?php
 
-$login_id = $_SESSION['user_id_string'];
 $session_id = session_id();
 // CART EMPTY CHECK-------------
-$query = "SELECT * FROM cart WHERE cart_session_id = '$session_id' OR cart_user_id = '$login_id'";
+if(isset($_SESSION['login'])){
+    $query = "SELECT * FROM cart WHERE cart_session_id = '$session_id' OR cart_user_id = '$login_id'";
+} else{
+    $query = "SELECT * FROM cart WHERE cart_session_id = '$session_id' ORDER BY cart_date_time ASC";
+}
 $sql = mysqli_query($connection,$query);
 $row=mysqli_fetch_array($sql);
 
@@ -13,13 +16,15 @@ if(!isset($row)){
 // -----------------------------
 
 if(isset($_SESSION['login'])){
+    $login_id = $_SESSION['user_id_string'];
     $query = "SELECT * FROM cart WHERE cart_user_id = '$login_id' ORDER BY cart_date_time ASC";
 }else{
     $query = "SELECT * FROM cart WHERE cart_session_id = '$session_id' ORDER BY cart_date_time ASC";
 }
 $sql = mysqli_query($connection, $query);
 $total_num_item = array();
-
+$total = 0;
+$total_num_qty = 0;
 while($showcart = mysqli_fetch_array($sql)){
     echo'
     <li class="cart_items_listed">
