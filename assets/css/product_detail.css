@@ -4,7 +4,6 @@ aside{
     top: 9rem;
     right:1rem;
     width: 100px;
-    height: 320px;
     border: 1px solid var(--main_orange);
     text-align: center;
 }

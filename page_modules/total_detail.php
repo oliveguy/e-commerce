@@ -3,9 +3,9 @@ session_start();
 include("page_modules/DB_connection.php");
 include("page_modules/login_status.php");
 $session_id = session_id();
-$login_id = $_SESSION['user_id_string'];
 
 if(isset($_SESSION['login'])){
+    $login_id = $_SESSION['user_id_string'];
     $query = "SELECT cart_sub_total FROM cart WHERE cart_user_id = '$login_id'";
 }else{
     $query = "SELECT cart_sub_total FROM cart WHERE cart_session_id = '$session_id'";
