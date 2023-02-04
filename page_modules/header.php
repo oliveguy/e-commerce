@@ -44,7 +44,11 @@ echo '
                 <img src="assets/images/icons/default_user_icon.jpg" alt="default_user_icon" width="30" height="30" id="user_icon">
                 <div id="user_status">
                     <p id="username_userpanel">'.$user_name.' <span id="usergrade_userpanel"> / Silver member</span></p>
-                    <p id="lastlogin_userpanel">';if(isset($_SESSION['login'])){echo"Last Login: ";}echo $user_login_datetime.'</p>
+                    <p id="lastlogin_userpanel">';
+                    if(isset($_SESSION['login'])){
+                        echo "Last Login: ".$user_login_datetime;
+                    }
+                    echo '</p>
                 </div>
                 <a href="page_modules/logout.php">Logout</a> 
             </div>
