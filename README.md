@@ -6,17 +6,16 @@ e-commerce website for selling breads
 ## Features
 
 ### Functionalities
-- login functions
+- Signup and login functions
 - Sidebar for viewing cart items
-- Cart function pulled from database(MySQL)
-- last login date and time are trackable
+- Information on cart items is pulled from database(MySQL)
+- last login date and time are available on user's panel
 - Detailed information pages depending on item
-- Remove items and select quantity of the item
+- Remove items and select quantity of the item on checkout page
 
 ### User Experiences
 - Can sort items by price and calories
 - intuitive UI/UX for improving sales
-
 
 ## Languages
 <div style="display:flex;">
