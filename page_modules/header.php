@@ -6,7 +6,8 @@ include("page_modules/DB_connection.php");
 if(isset($_SESSION['login'])){
     $user_name = $_SESSION['user_name'];
     
-    $query = "SELECT date_time FROM login_log WHERE id < ".$_SESSION['last_id'];
+    $query = "SELECT date_time FROM login_log WHERE id = ".$_SESSION['last_id']-1;
+    // $query = "SELECT date_time FROM login_log WHERE id < ".$_SESSION['last_id'];
     $sql = mysqli_query($connection, $query);
     $row = mysqli_fetch_array($sql);
     $user_login_datetime = $row['date_time'];

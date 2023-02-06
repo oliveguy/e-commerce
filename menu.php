@@ -25,7 +25,7 @@ $_SESSION['show_query'] = "";
     <div id="menu_nav_new_menu">
         <div class="wrapper">
             <div id="menu_nav">
-                <img src="assets/images/grammys.svg" alt="Grammy bakery logo" width="50" height="auto" id="grammylogo">
+                <img src="assets/images/mainlogo.png" alt="Coco bakery logo" width="80" height="auto" id="grammylogo">
                 <ul>
                     <li><a>New Bread</a></li>
                     <li><a>Specialty</a></li>

@@ -3,6 +3,7 @@
 $session_id = session_id();
 // CART EMPTY CHECK-------------
 if(isset($_SESSION['login'])){
+    $login_id = $_SESSION['user_id_string'];
     $query = "SELECT * FROM cart WHERE cart_session_id = '$session_id' OR cart_user_id = '$login_id'";
 } else{
     $query = "SELECT * FROM cart WHERE cart_session_id = '$session_id' ORDER BY cart_date_time ASC";
