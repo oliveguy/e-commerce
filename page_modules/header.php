@@ -29,7 +29,7 @@ echo '
             
             if(!isset($_SESSION['login'])){
                 echo '
-                <li><a href="/assets/pages/signup.php" class="user_nav_menu">Sign up</a></li>
+                <li><a href="./signup.php" class="user_nav_menu">Sign up</a></li>
                 <li class="user_nav_login"><a href="login.php" class="user_nav_menu">Log in</a></li>'
             ;}
             echo '

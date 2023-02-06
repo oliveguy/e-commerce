@@ -69,6 +69,10 @@
             }
             
         }
-        header('Location:../index.php');
-        
+        // header('Location:../index.php');
+        echo"<script>
+        alert('Welcome back! ".$_SESSION['user_name']."');
+        location.replace('../index.php');
+        </script>
+        ";
 ?>

@@ -8,7 +8,7 @@ include("page_modules/login_status.php");
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Grammy's Bakery || Home</title>
+    <title>Coco Bakery || Home</title>
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/header.css">
 </head>
